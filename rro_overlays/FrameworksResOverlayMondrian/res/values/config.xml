@@ -231,6 +231,22 @@
         <item>0:2:15</item>
     </string-array>
 
+    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
+    <integer-array name="config_udfps_sensor_props" translatable="false">
+        <item>730</item>
+        <item>2765</item>
+        <item>129</item>
+    </integer-array>
+
+    <string-array name="config_udfps_enroll_stage_thresholds">
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>0.875</item>
+    </string-array>
+
+    <integer name="config_udfps_illumination_transition_ms">0</integer>
+
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
          percent. The length of this array is assumed to be one greater than
          config_screenThresholdLevels. The brightening threshold is calculated as
@@ -476,4 +492,7 @@
 
     <!-- True if the device supports Sustained Performance Mode-->
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
+
+    <!-- Whether devices suports in-display fingerprint when screen is off -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>
 </resources>
