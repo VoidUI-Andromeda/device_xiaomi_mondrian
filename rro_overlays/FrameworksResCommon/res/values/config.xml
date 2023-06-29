@@ -321,4 +321,8 @@
 
     <!-- Determines whether the shell features all run on another thread. -->
     <bool name="config_enableShellMainThread">true</bool>
+
+    <dimen name="rounded_corner_content_padding">0dp</dimen>
+    <dimen name="rounded_corner_radius">20dp</dimen>
+
 </resources>
