@@ -18,5 +18,5 @@
 -->
 <resources>
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
-    <string name="def_device_name_simple">Redmi Note 12 Turbo</string>
+    <string name="def_device_name_simple">Redmi K60</string>
 </resources>
