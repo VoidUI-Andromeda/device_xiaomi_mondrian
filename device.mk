@@ -50,7 +50,9 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-service-system
 
 # Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_SCREEN_HEIGHT := 3200
+TARGET_SCREEN_WIDTH := 1440
 
 # Boot control
 PRODUCT_PACKAGES += \
