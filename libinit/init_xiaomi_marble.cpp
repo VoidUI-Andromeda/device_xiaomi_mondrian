@@ -12,7 +12,6 @@
 
 #define FINGERPRINT_GL "POCO/marble_global/marble:13/SKQ1.221022.001/V14.0.1.0.TMRMIXM:user/release-keys"
 #define FINGERPRINT_CN "Redmi/marble/marble:13/SKQ1.221022.001/V14.0.19.0.TMRCNXM:user/release-keys"
-#define FINGERPRINT_IN "POCO/marblein/marblein:13/SKQ1.221022.001/V14.0.1.0.TMRMIXM:user/release-keys"
 
 static const variant_info_t marble_global_info = {
     .hwc_value = "GL",
@@ -24,18 +23,6 @@ static const variant_info_t marble_global_info = {
     .model = "23049PCD8G",
     .mod_device = "marble_global",
     .build_fingerprint = FINGERPRINT_GL,
-};
-
-static const variant_info_t marblein_info = {
-    .hwc_value = "IN",
-    .sku_value = "",
-
-    .brand = "POCO",
-    .device = "marblein",
-    .marketname = "POCO F5",
-    .model = "23049PCD8I",
-    .mod_device = "marble_in_global",
-    .build_fingerprint = FINGERPRINT_IN,
 };
 
 static const variant_info_t marble_info = {
@@ -52,7 +39,6 @@ static const variant_info_t marble_info = {
 
 static const std::vector<variant_info_t> variants = {
     marble_global_info,
-    marblein_info,
     marble_info,
 };
 
