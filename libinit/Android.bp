@@ -5,7 +5,7 @@
 //
 
 cc_library_static {
-    name: "libinit_xiaomi_marble",
+    name: "libinit_xiaomi_mondrian",
     srcs: [
         "libinit_dalvik_heap.cpp",
         "libinit_variant.cpp",
@@ -17,9 +17,9 @@ cc_library_static {
 }
 
 cc_library_static {
-    name: "init_xiaomi_marble",
-    srcs: ["init_xiaomi_marble.cpp"],
-    whole_static_libs: ["libinit_xiaomi_marble"],
+    name: "init_xiaomi_mondrian",
+    srcs: ["init_xiaomi_mondrian.cpp"],
+    whole_static_libs: ["libinit_xiaomi_mondrian"],
     include_dirs: ["system/core/init"],
     recovery_available: true,
 }

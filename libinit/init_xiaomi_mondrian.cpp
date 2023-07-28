@@ -10,36 +10,36 @@
 
 #include "vendor_init.h"
 
-#define FINGERPRINT_GL "POCO/marble_global/marble:13/SKQ1.221022.001/V14.0.1.0.TMRMIXM:user/release-keys"
-#define FINGERPRINT_CN "Redmi/marble/marble:13/SKQ1.221022.001/V14.0.19.0.TMRCNXM:user/release-keys"
+#define FINGERPRINT_GL "POCO/mondrian_global/mondrian:13/SKQ1.220303.001/V14.0.4.0.TMNMIXM:user/release-keys"
+#define FINGERPRINT_CN "Redmi/mondrian/mondrian:13/SKQ1.220303.001/V14.0.26.0.TMNCNXM:user/release-keys"
 
-static const variant_info_t marble_global_info = {
+static const variant_info_t mondrian_global_info = {
     .hwc_value = "GL",
     .sku_value = "",
 
     .brand = "POCO",
-    .device = "marble",
-    .marketname = "POCO F5",
-    .model = "23049PCD8G",
-    .mod_device = "marble_global",
+    .device = "mondrian",
+    .marketname = "POCO F5 Pro",
+    .model = "23013PC75G",
+    .mod_device = "mondrian_global",
     .build_fingerprint = FINGERPRINT_GL,
 };
 
-static const variant_info_t marble_info = {
+static const variant_info_t mondrian_info = {
     .hwc_value = "CN",
     .sku_value = "",
 
     .brand = "Redmi",
-    .device = "marble",
-    .marketname = "Redmi Note 12 Turbo",
-    .model = "23049RAD8C",
-    .mod_device = "marble",
+    .device = "mondrian",
+    .marketname = "Redmi K60",
+    .model = "23013RK75C",
+    .mod_device = "mondrian",
     .build_fingerprint = FINGERPRINT_CN,
 };
 
 static const std::vector<variant_info_t> variants = {
-    marble_global_info,
-    marble_info,
+    mondrian_global_info,
+    mondrian_info,
 };
 
 void vendor_load_properties() {
