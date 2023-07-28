@@ -69,7 +69,7 @@ PRODUCT_COPY_FILES += \
 
 # DT2W
 PRODUCT_PACKAGES += \
-    DT2W-Service-Marble
+    DT2W-Service-Mondrian
 
 # Fastbootd
 PRODUCT_PACKAGES += \
