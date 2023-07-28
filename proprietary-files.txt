@@ -1,9 +1,9 @@
 # Diag
-system_ext/lib/libdiag_system.so
 system_ext/lib/libdiag_system.qti.so
+system_ext/lib/libdiag_system.so
 system_ext/lib/vendor.qti.diaghal@1.0.so
-system_ext/lib64/libdiag_system.so
 system_ext/lib64/libdiag_system.qti.so
+system_ext/lib64/libdiag_system.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
 
 # DPM
