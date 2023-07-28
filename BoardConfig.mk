@@ -5,7 +5,7 @@
 #
 
 # Inherit from the proprietary version
--include vendor/xiaomi/marble/BoardConfigVendor.mk
+-include vendor/xiaomi/mondrian/BoardConfigVendor.mk
 
 # A/B
 AB_OTA_UPDATER := true
@@ -42,7 +42,7 @@ SOONG_CONFIG_ufsbsg_ufsframework := bsg
 
 # Bootloader
 PRODUCT_PLATFORM := taro
-TARGET_BOOTLOADER_BOARD_NAME := marble
+TARGET_BOOTLOADER_BOARD_NAME := mondrian
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -115,8 +115,8 @@ BOARD_PARTITION_LIST := $(call to-upper, $(BOARD_QTI_DYNAMIC_PARTITIONS_PARTITIO
 $(foreach p, $(BOARD_PARTITION_LIST), $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := erofs))
 $(foreach p, $(BOARD_PARTITION_LIST), $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
 
-BOARD_PREBUILT_ODMIMAGE := vendor/xiaomi/marble/prebuilts/odm.img
-BOARD_PREBUILT_VENDORIMAGE := vendor/xiaomi/marble/prebuilts/vendor.img
+BOARD_PREBUILT_ODMIMAGE := vendor/xiaomi/mondrian/prebuilts/odm.img
+BOARD_PREBUILT_VENDORIMAGE := vendor/xiaomi/mondrian/prebuilts/vendor.img
 
 TARGET_COPY_OUT_ODM := odm
 TARGET_COPY_OUT_PRODUCT := product
