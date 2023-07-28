@@ -84,3 +84,6 @@ system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 # DisplayFeature
 system/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
 system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+
+# Device Features
+product/etc/device_features/mondrian.xml
