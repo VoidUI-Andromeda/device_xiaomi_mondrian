@@ -74,6 +74,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DT2W-Service-Mondrian
 
+# Dolby Sepolicy
+BOARD_SYSTEM_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/dolby
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
