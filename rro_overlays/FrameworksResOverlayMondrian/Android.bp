@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "AospWifiResOverlayMarbleChina",
+    name: "FrameworksResOverlayMondrian",
     product_specific: true,
 }

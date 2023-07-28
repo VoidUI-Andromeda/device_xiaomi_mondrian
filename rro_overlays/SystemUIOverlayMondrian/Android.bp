@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FrameworksResOverlayMarble",
+    name: "SystemUIOverlayMondrian",
     product_specific: true,
 }

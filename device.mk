@@ -105,21 +105,21 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    AospWifiResOverlayMarble \
+    AospWifiResOverlayMondrian \
     CarrierConfigResCommon \
     FrameworksResCommon \
-    FrameworksResOverlayMarble \
-    SettingsOverlayMarble \
+    FrameworksResOverlayMondrian \
+    SettingsOverlayMondrian \
     SettingsResCommon \
-    SystemUIOverlayMarble \
+    SystemUIOverlayMondrian \
     SystemUIResCommon \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon
 
 PRODUCT_PACKAGES += \
-    AospWifiResOverlayMarbleChina \
-    AospWifiResOverlayMarbleGlobal \
+    AospWifiResOverlayMondrianChina \
+    AospWifiResOverlayMondrianGlobal \
     SettingsOverlayGlobal \
     SettingsOverlayChina \
     SettingsProviderOverlayChina \

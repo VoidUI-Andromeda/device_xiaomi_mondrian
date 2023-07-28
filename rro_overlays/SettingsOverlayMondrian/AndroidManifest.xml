@@ -3,8 +3,8 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-     package="android.overlay.marble">
-     <overlay android:targetPackage="android"
+     package="com.android.settings.overlay.mondrian">
+     <overlay android:targetPackage="com.android.settings"
           android:isStatic="true"
           android:priority="1000" />
 </manifest>

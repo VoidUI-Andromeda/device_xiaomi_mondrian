@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsOverlayMarble",
+    name: "AospWifiResOverlayMondrian",
     product_specific: true,
 }
