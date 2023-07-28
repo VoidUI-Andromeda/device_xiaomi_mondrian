@@ -80,3 +80,7 @@ system_ext/lib64/libimsmedia_jni.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+
+# DisplayFeature
+system/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
+system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
