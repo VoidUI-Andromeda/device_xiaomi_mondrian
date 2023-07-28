@@ -87,3 +87,7 @@ system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
 # Device Features
 product/etc/device_features/mondrian.xml
+
+# Fingerprint Extension
+system_ext/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so
+system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
