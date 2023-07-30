@@ -24,6 +24,10 @@ TARGET_USES_AOSP_RECOVERY := true
 # Records via external microphone by default
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 
+# VoidUI Maintainer Flags
+VOID_MAINTAINER := johnmart19
+CUSTOM_BUILD_TYPE := OFFICIAL
+
 # Inherit from mondrian device.
 $(call inherit-product, device/xiaomi/mondrian/device.mk)
 
