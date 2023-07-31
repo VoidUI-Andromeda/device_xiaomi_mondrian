@@ -42,7 +42,7 @@ SOONG_CONFIG_ufsbsg_ufsframework := bsg
 
 # Bootloader
 PRODUCT_PLATFORM := taro
-TARGET_BOOTLOADER_BOARD_NAME := mondrian
+TARGET_BOOTLOADER_BOARD_NAME := taro
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -129,9 +129,8 @@ BOARD_USES_VENDOR_DLKMIMAGE := true
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
 
 # Platform
-TARGET_BOARD_PLATFORM := xiaomi_sm8475 # Replace by taro when OSS Vendor
+TARGET_BOARD_PLATFORM := taro
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno730
-QCOM_BOARD_PLATFORMS += xiaomi_sm8475 # Remove when OSS Vendor
 BOARD_USES_QCOM_HARDWARE := true
 
 # Properties
