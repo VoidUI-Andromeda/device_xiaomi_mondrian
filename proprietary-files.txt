@@ -170,3 +170,9 @@ system_ext/lib64/vendor.qti.hardware.perf@2.1.so
 system_ext/lib64/vendor.qti.hardware.perf@2.2.so
 system_ext/lib64/vendor.qti.hardware.perf@2.3.so
 system_ext/lib64/vendor.qti.qspmhal@1.0.so
+
+# MiPerf
+system_ext/lib/libmiperf_jni.so
+system_ext/lib/vendor.xiaomi.hardware.miperf@1.0.so
+system_ext/lib64/libmiperf_jni.so
+system_ext/lib64/vendor.xiaomi.hardware.miperf@1.0.so
