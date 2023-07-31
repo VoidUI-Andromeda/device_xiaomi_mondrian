@@ -24,6 +24,3 @@
 ## How-To:
 ### Update kernel / kernel headers:
 - https://github.com/VoidUI-Andromeda/device_xiaomi_mondrian/commit/9ad812236440062115def46fbcdb3960b6dbdc6a
-
-## Vendor repository:
-- https://gitlab.com/VoidUI/vendor_xiaomi_mondrian
