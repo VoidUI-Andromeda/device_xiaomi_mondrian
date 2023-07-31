@@ -176,3 +176,7 @@ system_ext/lib/libmiperf_jni.so
 system_ext/lib/vendor.xiaomi.hardware.miperf@1.0.so
 system_ext/lib64/libmiperf_jni.so
 system_ext/lib64/vendor.xiaomi.hardware.miperf@1.0.so
+
+# QTI Thermals
+system_ext/lib/libthermalclient.qti.so
+system_ext/lib64/libthermalclient.qti.so
