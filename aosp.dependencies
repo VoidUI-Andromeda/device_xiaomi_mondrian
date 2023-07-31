@@ -1,0 +1,16 @@
+[
+  {
+    "repository": "device_xiaomi_mondrian",
+    "target_path": "device/xiaomi/mondrian"
+  },
+  {
+    "repository": "vendor_xiaomi_mondrian",
+    "target_path": "vendor/xiaomi/mondrian"
+  },
+  {
+    "remote":      "gitlab",
+    "repository":  "VoidUI/vendor_xiaomi_mondrian-prebuilts",
+    "target_path": "vendor/xiaomi/mondrian/prebuilts",
+    "branch":      "aosp-13"
+  },
+]
