@@ -79,6 +79,55 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DT2W-Service-Mondrian
 
+# Display System
+PRODUCT_PACKAGES += \
+    vendor.display.config@1.14 \
+    vendor.display.config@2.0 \
+    vendor.qti.hardware.display.config-V1-ndk \
+    vendor.qti.hardware.display.config-V2-ndk \
+    vendor.qti.hardware.display.config-V3-ndk \
+    vendor.qti.hardware.display.config-V4-ndk \
+    vendor.qti.hardware.display.config-V5-ndk \
+    vendor.qti.hardware.display.config-V6-ndk
+
+# Display System_ext
+PRODUCT_PACKAGES += \
+    libdisplayconfig.system.qti \
+    libgralloc.system.qti \
+    libqdMetaData.system \
+    vendor.qti.hardware.display.composer@3.0 \
+    vendor.qti.hardware.display.composer@3.1
+
+# Display Vendor [Unused due to prebuilt vendor]
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.mapper-impl-qti-display \
+    vendor.qti.hardware.display.allocator-service \
+    vendor.qti.hardware.display.composer-service \
+    vendor.qti.hardware.display.mapper@4.0.vendor \
+    vendor.qti.hardware.display.mapperextensions@1.2 \
+    vendor.qti.hardware.display.allocator-service.rc \
+    vendor.qti.hardware.display.allocator-service.xml \
+    vendor.qti.hardware.display.composer-service.rc \
+    vendor.qti.hardware.display.composer-service.xml
+
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.mapper@4.0-impl-qti-display \
+    android.hardware.graphics.mapper-impl-qti-display.xml \
+    init.qti.display_boot.rc \
+    init.qti.display_boot.sh \
+    libdisplayconfig \
+    libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
+    libdisplayconfig.vendor \
+    libgralloc.qti \
+    libqdMetaData \
+    libqdutils \
+    libsdmcore \
+    libsdmutils \
+    vendor.display.config@1.11.vendor \
+    vendor.display.config@2.0.vendor \
+    vendor.qti.hardware.display.config.vendor
+
 # Dolby Sepolicy
 BOARD_SYSTEM_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/dolby
 
