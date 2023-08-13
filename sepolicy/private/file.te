@@ -16,3 +16,20 @@ type pps_socket, file_type;
 #sysfs
 type sysfs_graphics, sysfs_type, fs_type;
 type sysfs_kgsl, sysfs_type, fs_type;
+
+# Touchscreen
+type proc_tp_file, fs_type, proc_type;
+type sysfs_touch_hostprocess, fs_type, sysfs_type;
+type sysfs_touch_suspend, fs_type, sysfs_type;
+type sysfs_tp_fodstatus, fs_type, sysfs_type;
+type sysfs_tp_virtual_prox, fs_type, sysfs_type;
+type vendor_data_touchreport_file, data_file_type, file_type;
+
+# Display
+type sysfs_displayfeature, fs_type, sysfs_type;
+type vendor_sysfs_displayfeature, domain, mlstrustedobject;
+
+# bat
+type sysfs_battery_supply,fs_type, sysfs_type;
+
+type vendor_sysfs_graphics,fs_type, sysfs_type;
