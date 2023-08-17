@@ -209,6 +209,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0
 
+# TouchService
+PRODUCT_PACKAGES += \
+    TouchService-Mondrian
+
 # Update engine
 PRODUCT_PACKAGES += \
     checkpoint_gc \
